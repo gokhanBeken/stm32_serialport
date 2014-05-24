@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=serialPort.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\serialPort -TC:\CooCox\CoIDE\configuration\ProgramData\serialPort/arm-gcc-link.ld -g">
-      <target file="serialPort.elf" lastModified="1462efeccad">
-         <source file="..\obj\stm32f4xx_usart.o" lastModified="1462efec942"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="1462ef9c6d0"/>
-         <source file="..\obj\main.o" lastModified="1462efec9a0"/>
-         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1462efeca0d"/>
-         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1462efeca5c"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="1462efeca9a"/>
-         <source file="..\obj\misc.o" lastModified="1462efecad9"/>
+      <target file="serialPort.elf" lastModified="1462f47404f">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1462f37f9ef"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1462f37fa5d"/>
+         <source file="..\obj\main.o" lastModified="1462f444a78"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1462f37fb28"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1462f37fba5"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1462f37fc02"/>
+         <source file="..\obj\misc.o" lastModified="1462f37fc60"/>
+         <source file="..\obj\usart.o" lastModified="1462f473e79"/>
       </target>
    </processor>
 </history>
