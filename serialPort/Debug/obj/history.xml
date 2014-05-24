@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\gokhan\Documents\GitHub\stm32_serialport\cmsis_lib -I..\..\..\..\..\Users\gokhan\Documents\GitHub\stm32_serialport\cmsis_boot -I..\..\..\..\..\Users\gokhan\Documents\GitHub\stm32_serialport -I..\..\..\..\..\Users\gokhan\Documents\GitHub\stm32_serialport\cmsis -I..\..\..\..\..\Users\gokhan\Documents\GitHub -I..\..\..\..\..\Users\gokhan\Documents\GitHub\stm32_serialport\cmsis_lib\include">
+      <target file="stm32f4xx_rcc.o" lastModified="1462ee568ed">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1462e7bd8f2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1462ee56988">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1462e8ad448"/>
+      </target>
+      <target file="misc.o" lastModified="1462ee569c9">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1462e8952ef"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1462ee56942">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1462e7c45a9"/>
+      </target>
+      <target file="main.o" lastModified="1462ef3e1c0">
+         <source file="..\..\..\main.c" lastModified="1462ef3df3b"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="1462ee567cb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1462e7c872a"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1462ee56807">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1462e7b9d3a"/>
+      </target>
+   </processor>
+</history>
